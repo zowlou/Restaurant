@@ -1,0 +1,22 @@
+*{margin:0;padding:0;}
+
+// bleu: rgb(106,132,183)
+// bleu non hover: rgb(186,197,238)
+// Jaune: rgb(255,192,7)
+
+// .navbar-blue{background-color:rgb(106,132,183);}
+
+// .test {color:rgb(186,197,238);
+// margin: 0 1em;}
+// .test:hover{color:white;}
+
+// .navbar-toggler{color:white;}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/assets/img/banniere001.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
