@@ -5,7 +5,6 @@
 // Jaune: rgb(255,192,7)
 
 // .navbar-blue{background-color:rgb(106,132,183);}
-
 // .test {color:rgb(186,197,238);
 // margin: 0 1em;}
 // .test:hover{color:white;}
@@ -20,3 +19,11 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+.bg{
+  background: url(/assets/img/testbg02.png) repeat rgb(106,132,183);
+}
+
+.yellow{
+  background-color:yellow;
+}
