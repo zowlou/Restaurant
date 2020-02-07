@@ -168,4 +168,18 @@ h3 {
   width: 80%;
   margin: 0 auto 1em auto;
 }
+
+.pepe-list {
+  width: 80%;
+  margin: 0;
+}
+
+.align-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */
