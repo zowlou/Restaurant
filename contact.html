@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Feuille de style BS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Feuille de style -->
+    <link rel="stylesheet" href="assets/sass/style.css">
+    <!-- Feuille de style reponsive-->
+    <link rel="stylesheet" href="assets/sass/mobile.css">
+    <title>La Grosse Bouffe</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cartes.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pictures.html"  >Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurants.html">Restaurants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" id="active">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <p class="pepe">Bienvenu sur le site de</p>
+                <img class="logo" src="assets/img/logo-isole.png" alt="Bio's Fooding">
+                <p class="pepe">Les nouveaux restaurants proposés par "Entre Deux"</p>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <!-- contenu central-->
+    <section class="container-fluid ananas">
+        <!-- declaration des colonnes avec l'activation de la ligne "ROW"-->
+        <div class="row ">
+                <!-- colonne vide pour centrer la pphoto -->
+            <div class="col-sm-2"></div>
+                <!-- Colonne Jaune  -->
+            <div class=" col-sm-8 contact-picture">
+                <div class="row">
+                        <!-- Colonne vide -->
+                    <div class="col-sm-3"></div>      
+        <!-- ouverture du form -->
+                    <div class="col-sm-6">
+                        <div class="card jumpfree opacity" >
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput">Nom</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entrez votre nom">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput2">Prenom</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Entrez votre prenom">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
+                                    </div>
+                                    <div class="form-group pushleft">
+                                        <label for="exampleInputPassword1">Region</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Charleroi
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Anderlecht
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Sujet</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Réservation</option>
+                                            <option>Evenement</option>
+                                            <option>Buisness</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Posez votre question</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Envoyez votre message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="pfooter">
+            <a class="nav-link" href="#">Politique de la vie privée</a>
+            <a class="nav-link" href="#">Mentions légales</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="index.html">© 2019 Bio's Fooding</a>
+            <a class="nav-link" href="index.html"><img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding"></a>
+    </div>
+    </footer>
+    
+    <!-- Script JS pour BS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
