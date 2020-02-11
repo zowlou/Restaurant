@@ -25,4 +25,11 @@
     .pfooter{
         display:block;
     }
+    .pl-0{
+        width:50%;
+    }
+    .card-img-top{
+        height: 30%;
+        margin-bottom: 1em;
+    }
 }
