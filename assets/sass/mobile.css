@@ -1,11 +1,10 @@
-@media (max-width: 100px) {
+@media (max-width: 992px) {
     .sidebar {
     display: none;
     }
-    .masthead .logo{
-        height:65vw;
+    .ananas{
+        background-color:#fec107;
     }
-
     .pepe{
         color:white;
         text-shadow:0 0 1px black;
@@ -13,13 +12,17 @@
         font-weight:800 !important;
         font-size:2.6em !important;
     }
-
+    .logomh{
+        height:35vw;
+    }
     .pepe-light{
         color:white;
         text-align:justify;
     }
+    .marginmobile{
+        margin-top: 5%;
+    }
+    .pfooter{
+        display:block;
+    }
 }
-
-/* logo sur header
-footer adapté */
-

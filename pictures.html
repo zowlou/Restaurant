@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding">
         </a>
@@ -48,7 +48,7 @@
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
                 <p class="pepe">Bienvenu sur le site de</p>
-                <img class="img-fluid" src="assets/img/logo-isole.png" alt="Bio's Fooding">
+                <img class="logomh" src="assets/img/logo-isole.png" alt="Bio's Fooding">
                 <p class="pepe">Les nouveaux restaurants proposés par "Entre Deux"</p>
             </div>
         </div>
@@ -59,57 +59,45 @@
     <section class="container-fluid ananas">
         <!-- declaration des colonnes avec l'activation de la ligne "ROW"-->
         <div class="row ">
-                <!-- colonne vide pour centrer la zone "jaune"-->
-            <div class="col-sm-1 col-lg-2"></div>
                 <!-- Colonne Jaune  -->
-            <div class="col-sm-10 col-lg-8 yellow">
-                <div class="row">
-                        <!-- Colonne jaune vide -->
-                    <div class="col-sm-1 col-lg-2"></div>      
+            <div class="col-xl-8 yellow offset-xl-2">
+                <div class="row">    
         <!-- ouverture du carousel -->
-                    <div class="col-sm-10 col-lg-8">
+                    <div class="col-lg-12 col-xl-10 offset-xl-1">
                         <div id="carouselExampleIndicators" class="carousel slide jumpfree" data-ride="carousel">
-                            <!-- Affichage des indicateurs au bot -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                            </ol>
                             <!-- Anonce des photos -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <img class="d-block w-100" src="/assets/img/carousels/depositphotos_178169132-stock-photo-blur-coffee-shop-and-restaurant.jpg" alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption captionthis d-none d-md-block">
                                     <h3>Le Restaurant le plus Falch !</h3>
                                     <p>Avec un cadre chaleureux pour vous sustenter</p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="/assets/img/carousels/depositphotos_185007702-stock-photo-view-stylish-empty-cafe-arranged-min.jpg" alt="Second slide">
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption captionthis d-none d-md-block">
                                         <h3>Le Restaurant le plus Falch !</h3>
                                         <p>Avec un cadre chaleureux pour vous sustenter</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="/assets/img/carousels/depositphotos_188599566-stock-photo-cook.jpg" alt="Third slide">
-                                    <div class="carousel-caption d-none d-md-block" >
+                                    <div class="carousel-caption captionthis d-none d-md-block" >
                                         <h3>Le Restaurant le plus Falch !</h3>
                                         <p>Avec un cadre chaleureux pour vous sustenter</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="/assets/img/carousels/depositphotos_188599604-stock-photo-multicultural-chefs-laughing-restaurant-kitchen.jpg" alt="Third slide">
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption captionthis d-none d-md-block">
                                         <h3>Le Restaurant le plus Falch !</h3>
                                         <p>Avec un cadre chaleureux pour vous sustenter</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="/assets/img/carousels/depositphotos_188600074-stock-photo-multicultural-chefs-cutting-washing-vegetables.jpg" alt="Third slide">
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption captionthis d-none d-md-block">
                                         <h3>Le Restaurant le plus Falch !</h3>
                                         <p>Avec un cadre chaleureux pour vous sustenter</p>
                                     </div>
@@ -124,6 +112,15 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
+                        </div>
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-secondary" data-target="#carouselExampleIndicators" data-slide-to="0">1</button>
+                                <button type="button" class="btn btn-secondary" data-target="#carouselExampleIndicators" data-slide-to="1">2</button>
+                                <button type="button" class="btn btn-secondary" data-target="#carouselExampleIndicators" data-slide-to="2">3</button>
+                                <button type="button" class="btn btn-secondary" data-target="#carouselExampleIndicators" data-slide-to="3">4</button>
+                                <button type="button" class="btn btn-secondary" data-target="#carouselExampleIndicators" data-slide-to="4">5</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,7 +138,8 @@
             <a class="nav-link" href="index.html"><img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding"></a>
     </div>
     </footer>
-    
+    <!-- Script pour Font Awesome -->
+    <script src="https://kit.fontawesome.com/cd925ce16c.js" crossorigin="anonymous"></script>
     <!-- Script JS pour BS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

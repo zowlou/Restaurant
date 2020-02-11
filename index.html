@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding">
         </a>
@@ -48,7 +48,7 @@
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
                 <p class="pepe">Bienvenu sur le site de</p>
-                <img class="img-fluid" src="assets/img/logo-isole.png" alt="Bio's Fooding">
+                <img class="logomh" src="assets/img/logo-isole.png" alt="Bio's Fooding">
                 <p class="pepe">Les nouveaux restaurants proposés par "Entre Deux"</p>
             </div>
         </div>
@@ -58,17 +58,13 @@
     <!-- contenu central-->
     <section class="container-fluid ananas">
         <!-- declaration des colonnes avec l'activation de la ligne "ROW"-->
-        <div class="row ">
-                <!-- colonne vide pour centrer la zone "jaune"-->
-            <div class="col-sm-1 col-lg-2"></div>
+        <div class="row">
                 <!-- Colonne Jaune  -->
-            <div class="col-sm-10 col-lg-8 yellow">
+            <div class="col-sm-12 col-lg-8 offset-lg-2 yellow">
                 <div class="row">
-                        <!-- Colonne jaune vide -->
-                    <div class="col-sm-1 col-lg-2"></div>      
                         <!-- Video youtube -->
-                    <div class="col-sm-10 col-lg-8 embed-responsive-16by9">
-                        <div class="video-container">
+                    <div class="col-sm-10 col-lg-8 offset-sm-1 offset-lg-2 embed-responsive-16by9 ">
+                        <div class="video-container shadow">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/J2htMbJj8JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <p class="pepe-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptate eius, esse rerum quas, culpa officiis repellat fugiat adipisci illo, temporibus consequuntur consequatur porro ipsum. Vero aliquam ipsum numquam animi?
@@ -79,48 +75,44 @@
             </div>
         </div>
         <!-- Card -->
-    <div class="row ">
-            <!-- colonne vide pour centrer la zone "jaune"-->
-        <div class="col-sm-1 col-lg-2"></div>
-            <!-- Colonne Jaune  -->
-        <div class="col-sm-10 col-lg-8 yellow">
-            <div class="row jumpfree">
-                    <!-- Colonne jaune vide -->
-                <div class="col-sm-1"></div>      
-                    <!--  Carte gauche -->
-                <div class="col-sm-10 col-lg-5">
-                    <div class="card shadow h-100">
-                        <img class="card-img-top" src="/assets/img/plats-resize.jpg" alt="La photo d'une ratatouille">
-                        <div class="card-body">
-                            <h5 class="card-title">Recette de la semaine</h5>
-                            <p class="card-text">Cette semaine, nous vous proposons la recette qui fera rêver les petits et les grands, la célèbre ratatouille, façon Disney. Ce plat délicieux est bien plus facile à réaliser qu'il n'y parait, nous vous invitons à découvrir la recette pas à pas en cliquant sur le bouton ci-dessous.</p>
-                            <a href="#" class="btn button-yellow btn-primary">La Ratatouille Provençale</a>
+        <div class="row ">
+                <!-- Colonne Jaune  -->
+            <div class="col-sm-10 col-lg-8 offset-sm-1 offset-lg-2 yellow">
+                <div class="row jumpfree">
+                        <!-- Colonne jaune vide -->
+                    <div class="col-1"></div>      
+                        <!--  Carte gauche -->
+                    <div class="col-sm-10 col-xl-5">
+                        <div class="card shadow h-100">
+                            <img class="card-img-top" src="/assets/img/plats-resize.jpg" alt="La photo d'une ratatouille">
+                            <div class="card-body">
+                                <h5 class="card-title">Recette de la semaine</h5>
+                                <p class="card-text">Cette semaine, nous vous proposons la recette qui fera rêver les petits et les grands, la célèbre ratatouille, façon Disney. Ce plat délicieux est bien plus facile à réaliser qu'il n'y parait, nous vous invitons à découvrir la recette pas à pas en cliquant sur le bouton ci-dessous.</p>
+                                <a href="#" class="btn button-yellow btn-primary">La Ratatouille Provençale</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-1 d-lg-none"></div>
-                <!--  Carte droite -->
-                <div class="col-sm-1"></div> 
-                <div class="col-sm-10 col-lg-5">
-                    <div class="card shadow h-100">
-                        <div class="card-body ">
-                            <div class="card-radius">
-                                <h5 class="card-title">Nouveaux restaurants :</h5>
-                                <p class="card-text">Un nouveau restaurant "Bio's Fooding" ouvrira très prochainement ses portese. Clioquer sur le bouton ci-dessous pour découvrir toutes les infos concernant ce prochain point de restauration.</p>
-                                <a href="#" class="link-card">Card link</a>
-                                <a href="#" class="link-card">Another link</a>
-                                <hr class="push-bottom">
-                                <h5 class="card-title">Notre liste de fournisseurs s'agrandi :</h5>
-                                <p class="card-text">"Entre-Deux", et par extension, "Bio's Fooding", ne travaille qu'avec les meilleurs producteurs locaux. En février, quatre nouveaux bio-producteurs ont rejoins notre liste de fournisseurs. Cloquez sur le bouton ci-dessous pour découvrir les produits étonnant que vous retrouverez bientôt sur nos étals et dans nos menus.</p>
-                                <a href="#" class="link-card">Card link</a>
-                                <a href="#" class="link-card">Another link</a>
+                    <!--  Carte droite -->
+                    <div class="col-sm-10 col-xl-5 offset-sm-1 offset-xl-0 marginmobile">
+                        <div class="card shadow h-100">
+                            <div class="card-body ">
+                                <div class="card-radius">
+                                    <h5 class="card-title">Nouveaux restaurants :</h5>
+                                    <p class="card-text">Un nouveau restaurant "Bio's Fooding" ouvrira très prochainement ses portese. Clioquer sur le bouton ci-dessous pour découvrir toutes les infos concernant ce prochain point de restauration.</p>
+                                    <a href="#" class="link-card">Card link</a>
+                                    <a href="#" class="link-card">Another link</a>
+                                    <hr class="push-bottom">
+                                    <h5 class="card-title">Notre liste de fournisseurs s'agrandi :</h5>
+                                    <p class="card-text">"Entre-Deux", et par extension, "Bio's Fooding", ne travaille qu'avec les meilleurs producteurs locaux. En février, quatre nouveaux bio-producteurs ont rejoins notre liste de fournisseurs. Cloquez sur le bouton ci-dessous pour découvrir les produits étonnant que vous retrouverez bientôt sur nos étals et dans nos menus.</p>
+                                    <a href="#" class="link-card">Card link</a>
+                                    <a href="#" class="link-card">Another link</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- Footer -->
@@ -131,9 +123,10 @@
             <a class="nav-link" href="contact.html">Contact</a>
             <a class="nav-link" href="index.html">© 2019 Bio's Fooding</a>
             <a class="nav-link" href="index.html"><img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding"></a>
-    </div>
+        </div>
     </footer>
-    
+    <!-- Script pour Font Awesome -->
+    <script src="https://kit.fontawesome.com/cd925ce16c.js" crossorigin="anonymous"></script>
     <!-- Script JS pour BS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -59,13 +59,17 @@ footer .logo {
   background-size: cover;
 }
 
-.contact-picture-rest {
+.horaire-picture {
   background: url(/assets/img/restau.jpg) no-repeat;
   background-size: cover;
 }
 
 .masthead .logo {
   height: 65vh;
+}
+
+.logomh {
+  height: 55vh;
 }
 
 .pepe {
@@ -116,11 +120,6 @@ h5 {
   padding: 3% 3%;
 }
 
-.shadow-card {
-  -webkit-box-shadow: 3px 3px 5px 0px #999999;
-          box-shadow: 3px 3px 5px 0px #999999;
-}
-
 .button-yellow {
   color: #fff;
   background-color: #fec107;
@@ -144,30 +143,6 @@ h5 {
 
 .push-bottom {
   margin-bottom: 10%;
-}
-
-footer {
-  background-color: #6a84b7;
-  padding: 1em 0;
-}
-
-.pfooter {
-  text-align: center;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.pfooter a {
-  margin: 0 1em;
-}
-
-.pfooter a:hover {
-  color: white !important;
 }
 
 .goleft {
@@ -208,11 +183,6 @@ h3 {
           justify-content: space-between;
 }
 
-.carousel-text {
-  display: block;
-  float: left;
-}
-
 .opacity {
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -220,5 +190,60 @@ h3 {
 .pushleft {
   padding-left: 2em;
   font-weight: 700;
+}
+
+h6 {
+  font-size: 2em;
+  color: #fec107;
+}
+
+.card-radius-exag {
+  border-radius: 55px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn-toolbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1em;
+}
+
+.carousel-text {
+  display: block;
+  float: left;
+}
+
+.captionthis {
+  width: 70%;
+  background-color: rgba(180, 180, 180, 0.4);
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #6a84b7;
+  padding: 1em 0;
+}
+
+.pfooter {
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pfooter a {
+  margin: 0 1em;
+}
+
+.pfooter a:hover {
+  color: white !important;
 }
 /*# sourceMappingURL=style.css.map */

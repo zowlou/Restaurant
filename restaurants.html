@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding">
         </a>
@@ -48,26 +48,65 @@
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
                 <p class="pepe">Bienvenu sur le site de</p>
-                <img class="img-fluid" src="assets/img/logo-isole.png" alt="Bio's Fooding">
+                <img class="logomh" src="assets/img/logo-isole.png" alt="Bio's Fooding">
                 <p class="pepe">Les nouveaux restaurants proposés par "Entre Deux"</p>
             </div>
         </div>
     </div>
     </header>
-
+    
     <!-- contenu central-->
     <section class="container-fluid ananas">
         <!-- declaration des colonnes avec l'activation de la ligne "ROW"-->
         <div class="row ">
-                <!-- colonne vide pour centrer la pphoto -->
-            <div class="col-sm-1 col-lg-2"></div>
                 <!-- Colonne Jaune  -->
-            <div class="col-sm-10 col-lg-8 contact-picture-rest">
+            <div class="col-sm-12 col-xl-8 horaire-picture offset-xl-2">
+                <div class="row jumpfree">
+                        <!-- Colonne jaune vide -->
+                    <div class="col-1"></div>      
+                        <!--  Carte gauche -->
+                    <div class="col-sm-10 col-xl-5">
+                        <div class="card shadow h-100 opacity card-radius-exag">
+                            <div class="card-body">
+                                <h6 class="card-title text-center">Bio's Fooding <br/>Vous accueille à <br/>Charleroi</h6>
+                                <p class="card-text text-center">au<br/>Quai Arthur Rimbaud 10<br/>6000 Charleroi</p>
+                                <p class="card-text text-center"><i class="fas fa-phone"></i> 071/01 02 03</p>
+                                <p class="card-text text-center"><i class="fas fa-mobile"></i> 0472/01 02 03</p>
+                            </div>
+                            <iframe class=" card-img-top shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.877791735503!2d4.43899571589487!3d50.406115098439216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2267503f1dd91%3A0x86dcdd4c2a9c872b!2sQuai%20Arthur%20Rimbaud%2010%2C%206000%20Charleroi!5e0!3m2!1sfr!2sbe!4v1581444780668!5m2!1sfr!2sbe" height="300" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <!--  Carte droite -->
+                    <div class="col-sm-10 col-xl-5 offset-sm-1 offset-xl-0 marginmobile">
+                        <div class="card shadow h-100 opacity card-radius-exag">
+                            <div class="card-body">
+                                <h6 class="card-title text-center">Bio's Fooding <br/>Vous accueille à <br/>Anderlecht</h6>
+                                <p class="card-text text-center">à la<br/>Rue de Douvre 41<br/>1070 Anderlecht</p>
+                                <p class="card-text text-center"><i class="fas fa-phone"></i> 02/04 05 06</p>
+                                <p class="card-text text-center"><i class="fas fa-mobile"></i> 0473/04 05 06</p>
+                            </div>
+                            <iframe class=" card-img-top shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.69669218103!2d4.3136725!3d50.8367818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c41b7bb0123f%3A0x3aef9649552f751!2sRue%20de%20Douvres%2041%2C%201070%20Anderlecht!5e0!3m2!1sfr!2sbe!4v1581444821537!5m2!1sfr!2sbe" height="300" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
-                        <!-- Colonne vide -->
-                    <div class="col-sm-3"></div>      
-        <!-- ouverture des cards -->
-            
+                    <!-- ouverture du form -->
+                    <div class="col-sm-10 col-xl-6 offset-sm-1 offset-xl-3 marginmobile">
+                        <div class="card jumpfree opacity card-radius-exag text-center" >
+                            <div class="card-body">
+                                <h6>Nos horaires:</h6>
+                                <ul>
+                                    <li>lun 11h30-14h30 / 18h-22h</li>
+                                    <li>Mar 11h30-14h30 / 18h-22h</li>
+                                    <li>Mer 11h30-14h30 / 18h-22h</li>
+                                    <li>Jeu 11h30-14h30 / 18h-22h</li>
+                                    <li>Ven 11h30-14h30 / 18h-00h</li>
+                                    <li>Sam 11h30-14h30 / 18h-00h</li>
+                                    <li>Dim 11h30-14h30 / 18h-22h</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary">Réservez maintenant votre Table</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,9 +121,10 @@
             <a class="nav-link" href="contact.html">Contact</a>
             <a class="nav-link" href="index.html">© 2019 Bio's Fooding</a>
             <a class="nav-link" href="index.html"><img class="logo" src="assets/img/logo-isole.png"  alt="Bio's Fooding"></a>
-    </div>
+        </div>
     </footer>
-    
+    <!-- Script pour Font Awesome -->
+    <script src="https://kit.fontawesome.com/cd925ce16c.js" crossorigin="anonymous"></script>
     <!-- Script JS pour BS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
