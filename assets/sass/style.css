@@ -99,9 +99,7 @@ h5 {
   overflow: hidden;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
+.video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -133,8 +131,13 @@ h5 {
 }
 
 .card-img-top {
-  padding: 5%;
-  border-radius: 5px;
+  padding: 2%;
+  border-radius: 3px;
+}
+
+.card-img-bot {
+  padding: 2%;
+  border-radius: 0px 0 50px 50px;
 }
 
 .link-card {
